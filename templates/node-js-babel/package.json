@@ -5,12 +5,9 @@
   "main": "/server/index.js",
   "scripts": {
     "dev": "nodemon ./server/index.js --exec babel-node",
-    "build": "babel server -d dist",
-    "test": "mocha --require @babel/register"
+    "build": "babel server -d dist"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.1",
     "nodemon": "^1.18.10",
     "eslint": "^6.1.0",
     "eslint-config-airbnb": "^18.0.1"

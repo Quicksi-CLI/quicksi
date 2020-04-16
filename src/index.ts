@@ -147,7 +147,7 @@ function postProcessNode(options: CliOptions) {
   if (shell.which('yarn')) {
     cmd = 'yarn';
   } else if (shell.which('npm')) {
-    cmd = 'npm install';
+    cmd = 'npm install && npm update';
   }
 
   if (cmd) {

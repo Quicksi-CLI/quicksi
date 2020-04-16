@@ -1,0 +1,68 @@
+{
+    "name": "<%= projectName %>",
+    "version": "1.0.0.",
+    "description": "<%= projectName %>",
+    "main": "dist",
+    "scripts": {
+      "dev": "NODE_ENV=localDevelopment nodemon --exec babel-node src",
+      "build": "babel src -s -D -d dist",
+      "start": "YML=dist/config/application.yml node --require newrelic dist",
+      "test:mocha": "mocha --compilers js:babel-core/register -R spec src/**/*.spec.js --presets es2015,stage-0"
+    },
+    "eslintConfig": {
+      "extends": "eslint:recommended",
+      "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+      },
+      "env": {
+        "node": true
+      },
+      "rules": {
+        "no-console": 0,
+        "no-unused-vars": 1
+      }
+    },
+    "dependencies": {
+      "apollo": "^2.5.3",
+      "apollo-datasource-rest": "^0.5.0",
+      "apollo-server-cache-redis": "^1.1.4",
+      "apollo-server-express": "^2.0.0",
+      "axios": "^0.18.0",
+      "body-parser": "^1.13.3",
+      "compression": "^1.5.2",
+      "cors": "^2.8.4",
+      "dataloader": "^1.4.0",
+      "express": "^4.13.3",
+      "express-winston": "^2.4.0",
+      "firebase-admin": "^8.9.0",
+      "graphql": "^0.13.2",
+      "graphql-tools": "^3.1.1",
+      "http-status": "^1.0.1",
+      "js-yaml": "^3.12.0",
+      "lodash": "^4.17.10",
+      "moment": "^2.22.1",
+      "newrelic": "^5.10.0",
+      "query-string": "^6.2.0",
+      "string-format": "^2.0.0",
+      "winston": "^2.3.1",
+      "winston-daily-rotate-file": "^1.4.6"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.4.4",
+      "@babel/core": "^7.4.4",
+      "@babel/node": "^7.2.2",
+      "@babel/plugin-proposal-class-properties": "^7.4.4",
+      "@babel/preset-env": "^7.4.4",
+      "babel-eslint": "^7.2.3",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-preset-latest-node": "^3.1.1",
+      "babel-preset-stage-0": "^6.5.0",
+      "chai": "^4.0.2",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb-base": "^11.3.1",
+      "eslint-plugin-import": "^2.7.0",
+      "mocha": "^3.5.0",
+      "nodemon": "^1.9.2"
+    }
+  }
