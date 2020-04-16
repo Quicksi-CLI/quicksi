@@ -105,3 +105,6 @@ dist
 
 # Remove DS store file
 .DS_Store 
+
+# temporal
+.documentation
