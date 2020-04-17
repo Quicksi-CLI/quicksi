@@ -1,4 +1,4 @@
-# Node Application Server Starter Pack
+# <%= projectName %>
 
 The current application server is under development please use with caution.
 The current readme file, documentation and code is still work in progress.
@@ -6,17 +6,16 @@ Contributions are welcome.
 
 ## Getting started
 
-``
+`cd <%= projectName %>`
+
+`npm i` - if there was an error installing the dependencies
 
 Create a ```.env``` file and add your JWT secret:
 ```
 SECRET=secret_key_here
 ```
 
-Install NPM packages and start the server
-
 ```
-npm install
 npm start
 ```
 
