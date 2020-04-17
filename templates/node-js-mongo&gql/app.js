@@ -1,4 +1,7 @@
-
+/**
+ * Application Entry point
+ * @type {createApplication}
+ */
 const express = require('express');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
@@ -14,8 +17,15 @@ const jwt = require('express-jwt');
 
 const User = require('./models/User');
 
+// let's import the schema file we just created
 const GraphQLSchema = require('./graphql');
 
+
+/**
+ * Load environment variables from .env file, where API keys and passwords are configured.
+ *
+ * Default path: .env (You can remove the path argument entirely, after renaming `.env.example` to `.env`)
+ */
 dotenv.load({path: '.env'});
 
 const UploadProfilePicture = require('./middleware/uploadProfilePicture');

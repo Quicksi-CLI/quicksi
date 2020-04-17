@@ -1,4 +1,5 @@
 const GraphQL = require('graphql');
+const auth = require('../../config/auth');
 const Generic = require('../types/Generic');
 
 const {

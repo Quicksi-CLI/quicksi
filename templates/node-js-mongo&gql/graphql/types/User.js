@@ -8,6 +8,9 @@ const {
     GraphQLList,
 } = GraphQL;
 
+const Generic = require('./Generic');
+const Address = require('./Address');
+
 
 const UserType = new GraphQL.GraphQLObjectType({
 	name: 'User',
@@ -65,6 +68,11 @@ const UserType = new GraphQL.GraphQLObjectType({
 			type: GraphQLString,
 			description: 'Status of the user, whether active or disabled',
 		},
+
+		address: {
+			type: new GraphQLList(Address),
+			description: 'User address',
+		},
 		createdAt: {
 			type: GraphQLString,
 			description: 'Generate system to allow user to have secure resource access',
@@ -80,3 +88,4 @@ const UserType = new GraphQL.GraphQLObjectType({
 
 
 module.exports = UserType;
+

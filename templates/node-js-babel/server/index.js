@@ -23,8 +23,7 @@ app.all('*', (req, res) => {
 });
 
 app.listen(port, () => {
-  logger(`Server Running at:
-  http://localhost:${getEnv('PORT', port)}`);
+  logger(`Your quicksi project server is Running at: http://localhost:${getEnv('PORT', port)}`);
 });
 
 export default app;

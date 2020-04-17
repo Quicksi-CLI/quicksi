@@ -1,0 +1,79 @@
+{
+  "name": "<%= projectName %>",
+  "version": "1.0.0",
+  "description": "<%= projectName %>",
+  "keywords": [
+    "<%= projectName %>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest -u",
+    "test-watch": "jest -u --watch",
+    "serve": "node server",
+    "watch": "NODE_ENV=development webpack --config ./webpack.development.config.js --colors --hide-modules --watch --watch-poll",
+    "dev": "NODE_ENV=development webpack --config ./webpack.development.config.js --colors --progress --hide-modules",
+    "prod": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress --colors --hide-modules",
+    "eslint": "eslint .",
+    "jsonapi": "json-server --watch db.json --port 3004"
+  },
+  "jest": {
+    "bail": false,
+    "verbose": true,
+    "collectCoverage": true,
+    "notify": true,
+    "testEnvironment": "jsdom",
+    "moduleDirectories": [
+      "app",
+      "node_modules"
+    ],
+    "testMatch": [
+      "**/?(*.)(spec|test).js?(x)"
+    ],
+    "collectCoverageFrom": [
+      "app/*/**/*.{js}",
+      "!app/*/**/index.js",
+      "!app/actions/*",
+      "!app/store/*",
+      "!app/reducers/*",
+      "!dist/*"
+    ],
+    "roots": [
+      "<rootDir>/app/"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "8.0.6",
+    "core-js": "^3.2.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint": "^6.1.0",
+    "eslint-loader": "^2.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "json-server": "^0.15.0",
+    "prop-types": "^15.7.2",
+    "react-test-renderer": "^16.9.0",
+    "redux-devtools": "^3.5.0",
+    "redux-mock-store": "^1.5.3",
+    "webpack": "^4.39.2",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
