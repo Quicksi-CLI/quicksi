@@ -34,5 +34,5 @@ app.use('/api', router);
 app.use(handleError);
 
 app.listen(config.port, () => {
-    console.log(`** App running at port ${config.port} **`);
+    console.log(`** Quicksi App running at port ${config.port} **`);
 });

@@ -6,6 +6,8 @@ Contributions are welcome.
 
 ## Getting started
 
+``
+
 Create a ```.env``` file and add your JWT secret:
 ```
 SECRET=secret_key_here
@@ -72,7 +74,3 @@ curl -X POST \
   -H 'token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZmlyc3ROYW1lIjoiYWRtaW4iLCJsYXN0TmFtZSI6ImFkbWluIiwiZW1haWwiOiJhZG1pbkBsb2NhbGhvc3QuY29tIiwiY2xhaW1zIjpbImNhbl9kb19ldmVyeXRoaW5nIiwiY2FuX2NyZWF0ZV91c2VycyJdLCJpYXQiOjE1NDY4Njk0NzV9.NqW7MhcjOpRTJOeUyNcl4O3K1qoaGvkhElvNHZIMWsE' \
   -d '{ "echo": true}'
   ```
-
-  ## Contributing
-
-  Contribution guidelines: TBD
