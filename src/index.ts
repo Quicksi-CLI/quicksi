@@ -79,19 +79,21 @@ inquirer.prompt(QUESTIONS)
 
 function showMessage(options: CliOptions) {
   console.log('');
-  console.log(chalk.green('quicksi'));
+  console.log(chalk.green('You said quicksi!'));
 
-  let output= '';
+  var output= '';
   output += ' \n';
   output += ' ____  _____  ____  _____ \n';
   output += '(_  _)(  _  )(  _ \\(  _  ) \n';
   output += '  )(   )(_)(  )(_) ))(_)(  \n';
   output += ' (__) (_____)(____/(_____) \n';
 
-  output = 'Your have said the magic word, and here is your generated project:';
-  console.log(chalk.green(output));
+  console.log(output);
+
+  const output2 = 'You said the magic word, and here is your generated project:';
+  console.log(output2);
   console.log(chalk.green(`cd ${options.projectName}`));
-  console.log(chalk.green(`npm run dev`));
+  console.log(chalk.yellow(`if there are two lock file, kindly delete one. And install dependencies. Checkout the README to continue.`));
   
 
   const message = options.config.postMessage;

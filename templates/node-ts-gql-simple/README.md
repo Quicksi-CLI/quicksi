@@ -10,10 +10,14 @@
 happen to fix it, please submit a PR with your fix. On the other hand if for
 some reason you couldn't fix it, please raise a Bug Report Issue.
 
-`npm install` or `yarn install` - Install the packages, they're automatically installed, but to avoid errors do well to install again after quicksi completes.
+`yarn install` - Install the packages, they're automatically installed, but to avoid errors do well to install again after quicksi completes.
 
-`npm run dev` or `yarn dev` - Start the development server
-`npm run build` or `yarn build` - Run the build
+`yarn dev` - Start the development server
+
+
+```
+Check out the scripts on package.json for more information
+```
 
 
 [Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
