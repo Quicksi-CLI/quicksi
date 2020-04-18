@@ -1,6 +1,7 @@
 # Contributing
-
 First off, thank you so much for taking the time to contribute. All contributions are more than welcome!
+
+Quicksi calls her contributors *Superheroes🦸‍♂️*
 
 ## How can I contribute?
 
