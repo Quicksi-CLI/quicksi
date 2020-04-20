@@ -1,0 +1,11 @@
+exclude_patterns:
+ - "src/index.js"
+ - "**/node_modules/"
+checks:
+  method-lines:
+    config:
+      threshold: 80
+  similar-code:
+    enabled: false
+  identical-code:
+    enabled: true

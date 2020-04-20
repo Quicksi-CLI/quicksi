@@ -24,7 +24,7 @@ export class Counter extends React.Component<Props, State> {
   render() {
     return (
       <div>
-        <div>Counter: {this.state.count}</div>
+        <div>Quicksi likes counting: {this.state.count}</div>
       </div>
     );
   }

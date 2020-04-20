@@ -8,9 +8,8 @@ class App extends React.Component<{}, undefined> {
     public render() {
         return (
             <div className="app">
-                <h1>Hello World!</h1>
-                <p>Foo to the barz</p>
-                <img src={reactLogo.default} height="480"/>
+                <h1>Quicksi loves react with typescript</h1>
+                <p>Say hi to quicksi</p>
             </div>
         );
     }

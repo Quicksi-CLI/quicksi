@@ -1,65 +1,69 @@
-# react-redux-starter-kit
-A starter kit with react 16, redux, jest and webpack 4.
+# <%= projectName %>
 
-[![Build Status](https://travis-ci.org/trembacz/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/trembacz/react-redux-starter-kit)
-[![Dependencies](https://david-dm.org/trembacz/react-redux-starter-kit/status.svg)](https://david-dm.org/trembacz/react-redux-starter-kit?view=list) 
-[![devDependencies](https://david-dm.org/trembacz/react-redux-starter-kit/dev-status.svg)](https://david-dm.org/trembacz/react-redux-starter-kit?type=dev&view=list)
+## Quick Start
+
+``` bash
+# Install dependencies for server
+npm install
 
 
-## Contains:
+# compile and transpile react
+npm run build
 
-* Webpack 4 dev and production config
-* Hot module replacement support
-* Jest - unit testing framework
-* ES6 - 7 Support with Babel
-* ESlint - to keep your js readable
-* Code spliting - separate vendor and React code
-* Bundle Analyzer included (uncomment in webpack configuration files)
-
-## Getting Started
-
-**1. Clone the repository to your local machine by running:**
-
-```bash
-git clone git@github.com:trembacz/react-redux-starter-kit.git
-cd react-redux-starter-kit
+# npm start
+npm start
 ```
 
-**2. Install all dependencies:**
+# Prettier 
 
-```npm install``` or ```yarn install```
+``` bash
+# run prettier check
+npm run prettier:check
 
-**3. Run the app:**
 
-```npm run serve``` or ```yarn serve```
+# fix all prettier error
+npm run prettier:fix
 
-Run server on port 3000 with HMR enabled
 
-**4. Build dev files:**
+# run prettier check and fix the error at the same time
+npm run check:lint-prettier
+```
 
-```npm run dev``` or ```yarn dev```
+# Eslint 
 
-**5. Build production files:**
+``` bash
+# run eslint check
+npm run eslint:check
+```
 
-```npm run prod``` or ```yarn prod```
+# Test 
 
-Building app in the "dist" directory. Contains the index.html with the minified assets, it's ready for production!.
+``` bash
+# run test with coverage
+npm run test
 
-## Run tests
 
-```npm run test``` or ```yarn test```
+# update snapshot test
+npm run update-snapshot
 
-This command will run tests and create a Coverage report under "coverage/lcov-report/index.html"
 
-## Run tests --watch
+# run test with night-watch
+npm run test:watch
+```
 
-Watch files for changes and rerun tests related to changed files.
+Open and check package.json scripts to get more info about this scripts commands
 
-```npm run test-watch``` or ```yarn test-watch```
 
-## To run JSON mock api
+# Setups
+> Open up `travis.yml` file and update CC_TEST_REPORTER_ID value  with your COde climate test reporter ID
 
-Run fake REST server on port 3004
 
-```npm run jsonapi``` or ```yarn jsonapi```
 
+# Project Dependencies
+
+
+[Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
+
+`Remember Quicksi loves ♥️♥️♥️♥️ you`
+
+[Contribute to Quicksi]()

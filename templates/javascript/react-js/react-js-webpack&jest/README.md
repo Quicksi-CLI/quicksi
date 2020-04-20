@@ -1,52 +1,72 @@
-# React Webpack Babel Starter
-> Minimal starter with hot module replacement (HMR) for rapid development.
+# <%= projectName %>
 
-* **[React](https://facebook.github.io/react/)** (16.x)
-* **[Webpack](https://webpack.js.org/)** (4.x)
-* **[Hot Module Replacement (HMR)](https://webpack.js.org/guides/hmr-react/)** using [React Hot Loader](https://github.com/gaearon/react-hot-loader) (4.x)
-* **[Babel](http://babeljs.io/)** (7.x)
-* [SASS](http://sass-lang.com/)
-* [Jest](https://facebook.github.io/jest/) - Testing framework for React applications
-* Image loading/minification using [Image Webpack Loader](https://github.com/tcoopman/image-webpack-loader)
-* Code formatting using [Prettier](https://github.com/prettier/prettier).
+## Quick Start
 
-## Installation
-1. Clone/download repo
-2. `yarn install` (or `npm install` for npm)
+``` bash
+# Install dependencies for server
+npm install
 
-## Usage
-**Development**
 
-`yarn run start-dev`
+# compile and transpile react
+npm run build
 
-* Build app continously (HMR enabled)
-* App served @ `http://localhost:8080`
+# npm start
+npm start
+```
 
-**Production**
+# Prettier 
 
-`yarn run start-prod`
+``` bash
+# run prettier check
+npm run prettier:check
 
-* Build app once (HMR disabled) to `/dist/`
-* App served @ `http://localhost:3000`
 
-Note: change port number by setting the envrionment variable `PORT` 
+# fix all prettier error
+npm run prettier:fix
 
----
 
-**All commands**
+# run prettier check and fix the error at the same time
+npm run check:lint-prettier
+```
 
-Command | Description
---- | ---
-`yarn run start-dev` | Build app continously (HMR enabled) and serve @ `http://localhost:8080`
-`yarn run start-prod` | Build app once (HMR disabled) to `/dist/` @ `http://localhost:3000`
-`yarn run build` | Build app to `/dist/`
-`yarn run test` | Run tests
-`yarn run prettier-write` | Format code and write changes
-`yarn run prettier-check` | Prints the filenames of files that are different from Prettier formatting
-`yarn run start` | (alias of `yarn run start-dev`)
+# Eslint 
 
-**Note**: replace `yarn` with `npm` in `package.json` if you use npm.
+``` bash
+# run eslint check
+npm run eslint:check
+```
 
-## See also
-* [React Webpack Typescript Starter](https://github.com/vikpe/react-webpack-typescript-starter)
-* [Isomorphic Webapp Starter](https://github.com/vikpe/isomorphic-webapp-starter)
+# Test 
+
+``` bash
+# run test with coverage
+npm run test
+
+
+# update snapshot test
+npm run update-snapshot
+
+
+# run test with night-watch
+npm run test:watch
+```
+
+Open and check package.json scripts to get more info about this scripts commands
+
+
+# Setups
+> Open up `travis.yml` file and update CC_TEST_REPORTER_ID value  with your COde climate test reporter ID
+
+
+
+# Project Dependencies
+
+
+# Project Structure
+
+
+[Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
+
+`Remember Quicksi loves ♥️♥️♥️♥️ you`
+
+[Contribute to Quicksi]()

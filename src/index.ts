@@ -98,7 +98,7 @@ const QUESTIONS: Array<Object> = [
    *  starters from each file
    */
 
-  //  TypeScript Starters
+  //  Add starters that are typeScript here
   {
     name: 'tsStarters',
     type: 'list',
@@ -120,7 +120,7 @@ const QUESTIONS: Array<Object> = [
   },
 
 
-  // JavaScript Starters
+  // Add starters that are JavaScript here
   {
     name: 'jsStarters',
     type: 'list',

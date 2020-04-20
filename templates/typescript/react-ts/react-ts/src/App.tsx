@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <Layout>
         <Header style={{ position: 'fixed', zIndex: 1, width: '100%', background: 'none' }}>
-          <h2 className="App-logo">Logo here</h2>
+          <h2 className="App-logo">Quicksi</h2>
           <AppMenu/>
         </Header>
         <Content style={{ padding: '0 50px', marginTop: 64 }}>
@@ -20,7 +20,7 @@ class App extends React.Component {
           </div>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          Footer ©2018
+          Quicksi Footer {new Date().getFullYear()}
     </Footer>
       </Layout>
     );
