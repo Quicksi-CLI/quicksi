@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "driver": "mysql",
+        "user": "db_user",
+        "database": "db_name",
+        "password": "dn_password",
+        "multipleStatements": true
+    }
+}

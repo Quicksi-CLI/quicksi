@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/node-js/node-js-mocha%26chai.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-mocha%26chai) 
+
 # Node JS Fresh start with Babel Transpiler and Mocha and Chai
 
 All you need is NodeJS running on your machine.
@@ -19,6 +21,6 @@ some reason you couldn't fix it, please raise a Bug Report Issue.
 
 [Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
 
-`Remember Quicksi loves ♥️♥️♥️♥️ you`
+`Remember Quicksi loves ♥️♥️♥️♥️ developers`
 
-[Contribute to Quicksi]()
+[Contribute to Quicksi](https://github.com/AnayoOleru/quicksi/blob/master/CONTRIBUTING.md)

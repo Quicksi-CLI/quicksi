@@ -1,3 +1,6 @@
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/typescript/node-ts/node-ts-mysql%26sequelize.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/typescript/node-ts/node-ts-mysql%26sequelize) 
+
+
 # <%= projectName %>
 
 # Get Started
@@ -22,7 +25,7 @@ Check out the scripts on package.json for more information
 
 [Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
 
-`Remember Quicksi loves ♥️♥️♥️♥️ you`
+`Remember Quicksi loves ♥️♥️♥️♥️ developers`
 
-[Contribute to Quicksi]()
+[Contribute to Quicksi](https://github.com/AnayoOleru/quicksi/blob/master/CONTRIBUTING.md)
 

@@ -108,6 +108,6 @@ yarn prettier:fix
 
 [Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
 
-`Remember Quicksi loves ♥️♥️♥️♥️ you`
+`Remember Quicksi loves ♥️♥️♥️♥️ developers`
 
-[Contribute to Quicksi]()
+[Contribute to Quicksi](https://github.com/AnayoOleru/quicksi/blob/master/CONTRIBUTING.md)

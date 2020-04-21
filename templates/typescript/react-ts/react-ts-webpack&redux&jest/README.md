@@ -1,10 +1,9 @@
-# React / Redux / Typescript / Webpack - Starter
-## _Powered by Webpack optimized for performance_
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/typescript/react-ts/react-ts-webpack%26redux%26jest.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/typescript/react-ts/react-ts-webpack%26redux%26jest) 
 
-### Recently updated all dependencies!
+# <%= projectName %>
 
 ## Features:
-- No babel!  
+- No babel!
 - Ultra performance  
 - Webpack 2 (simple one-file config, separate vendor bundle, dashboard)  
 - Setup for `ts-loader` and `awesome-typescript-loader` for comparison (check `npm run dev` or `npm run dev:awesome`)  
@@ -17,22 +16,14 @@
 
 ---
 
-## Installation
+## Getting started
 - project optimized to use yarn
-```
-// Clone repo
-git clone https://github.com/piotrwitek/react-redux-typescript-webpack-starter
-
-// Install dependencies
-npm install
-
+```bash
 // Run development server with react hot-reload
 npm run dev (ts-loader)
 ```
 
 ---
-
-## CLI Commands
 
 #### - Development
 
@@ -70,10 +61,11 @@ npm run dev (ts-loader)
 
 #### - Deployment
 
-~~`npm run deploy` - commit and push all changes found in `/dist` folder to "gh-pages" branch~~
+~~`npm run deploy` - commit and push all changes found in `/dist` folder
 
----
 
-## The MIT License (MIT)
+[Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
 
-Copyright (c) 2016 Piotr Witek <piotrek.witek@gmail.com> (http://piotrwitek.github.io/)
+`Remember Quicksi loves ♥️♥️♥️♥️ developers`
+
+[Contribute to Quicksi](https://github.com/AnayoOleru/quicksi/blob/master/CONTRIBUTING.md)

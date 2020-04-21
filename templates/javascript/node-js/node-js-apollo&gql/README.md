@@ -1,3 +1,6 @@
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/node-js/node-js-apollo%26gql.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-apollo%26gql)
+
+
 # Node JS Apollo, GraphQL, PostgreSQL and Sequelize
 
 You need Postgres running on your machine. 
@@ -18,6 +21,6 @@ Set the configuration/credentials in the `server/config/config.json` file.
 
 [Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
 
-`Remember Quicksi loves ♥️♥️♥️♥️ you`
+`Remember Quicksi loves ♥️♥️♥️♥️ developers`
 
-[Contribute to Quicksi]()
+[Contribute to Quicksi](https://github.com/AnayoOleru/quicksi/blob/master/CONTRIBUTING.md)

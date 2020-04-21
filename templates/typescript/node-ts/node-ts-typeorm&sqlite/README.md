@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/typescript/node-ts/node-ts-typeorm%26sqlite.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/typescript/node-ts/node-ts-typeorm%26sqlite)
+
 # <%= projectName %>
 
 The current application server is under development please use with caution.
@@ -76,6 +78,6 @@ curl -X POST \
 
 [Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
 
-`Remember Quicksi loves ♥️♥️♥️♥️ you`
+`Remember Quicksi loves ♥️♥️♥️♥️ developers`
 
-[Contribute to Quicksi]()
+[Contribute to Quicksi](https://github.com/AnayoOleru/quicksi/blob/master/CONTRIBUTING.md)

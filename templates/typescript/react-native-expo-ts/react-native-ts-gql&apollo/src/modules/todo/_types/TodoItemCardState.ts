@@ -1,0 +1,3 @@
+interface TodoItemCardState {
+    checked: boolean;
+}

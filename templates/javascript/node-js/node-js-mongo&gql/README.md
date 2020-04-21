@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/node-js/node-js-mongo%26gql.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-mongo%26gql)
+
 # <%= projectName %>
 
 ## Get Started
@@ -52,3 +54,9 @@ Follow these instructions above to seed the database with sample users to get st
 ```bash
   $ npm run del:sampledata
 ```
+
+[Give Quicksi a star on GitHub](https://github.com/AnayoOleru/quicksi)
+
+`Remember Quicksi loves ♥️♥️♥️♥️ developers`
+
+[Contribute to Quicksi](https://github.com/AnayoOleru/quicksi/blob/master/CONTRIBUTING.md)

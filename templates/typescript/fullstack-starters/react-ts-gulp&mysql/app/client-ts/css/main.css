@@ -1,0 +1,14 @@
+
+.task-success {
+    color: green;
+    font-weight: 800;
+}
+
+.task-icon {
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.force-display {
+    display: inline !important;
+}
