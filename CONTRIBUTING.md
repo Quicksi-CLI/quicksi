@@ -5,7 +5,7 @@ Quicksi calls her contributors *Superheroes🦸‍♂️* You are a superhero!
 
 Instructions to guide you through the process:
 
-**Starters** Are the templates or boiler plates, users get to start their project with.
+**Starters** Are the templates or boiler plates, users get to start their project with. Learn more about starters [here](#About-starters)
 
 ## First step?
 
@@ -13,37 +13,33 @@ Instructions to guide you through the process:
 - **Fork the repo**
 - **All templates are found in ```src/``` folder**
 - **Clone the forked repo** and set it up (check out the [What to contribute section](#What-can-I-contribute?) to know what you can contribute)
+- **Run `npm install`**
 
 
 ## What can I contribute?
 - [New starters in any framework in the programming language supported by the platform](#new-starters-in-any-framework)
-
 - [New framework with a new starter](#New-framework-with-a-new-starter)
-
 - [Updates on the starters available](#Updates-on-the-starters-available)
-
 - [Another starter with a different code or folder structure from the one that exist](#Another-starter-with-a-different-code-or-folder-structure-from-the-one-that-exist)
-
-- [A new but more professional starter in a specific framework for professionals](#)
-- [Starters you want to use in a video tutorial, written tutorial, or tech conference, and want your learners to easily get it up and running quickly]()
-- [Update documentation or README.md file of a particular project](#)
-- [Update Quicksi online documentation]()
-- [Report or fix a bug on a quicksi project]()
+- [create a starter for a tutorial](#create-a-starter-for-a-tutorial)
+- [Update Quicksi online documentation](#Update-Quicksi-online-documentation)
+- [Report or fix a bug on a Quicksi project](#Report-or-fix-a-bug-on-a-Quicksi-project)
 
 
 
 ## New-starters-in-any-framework
-> If the framework of your new starter already exist in the sidebar:
+> If the framework of your new starter already exist in templates:
 
-- Create a new folder in the respective Programming language folder, add your starter in the required template.
+- In the required template folder, and in the respective Programming language folder, create a new folder inside the framework folder you want to create:
 
 - Test locally
 
-run 
 
 ```bash
 
 # to build transpile the typescript
+# run
+
 yarn build
 
 
@@ -128,7 +124,7 @@ for-example- an old or deprecated tool
 
 
 ## Updates on the starters available
-You want to make an update either to some dependencies, probably deprecated dependencies, a new way of setting up a tool, or fix some some error. Any updates you want to make on any starter that'll benefit others is welcome.
+You want to make an update either to some dependencies, probably deprecated dependencies, a new way of setting up a tool, fix some some error, or update their README.md file. Any updates you want to make on any starter that'll benefit others is welcome.
 
 - go right into the folder of the starter you want to update and make your updates
 - Test locally
@@ -194,6 +190,40 @@ npx quicksi
 - See [Last Step](#Last-step)
 
 
+## create a starter for a tutorial, or tech conference.
+Quicksi can enable your learners get up and running with your code starter, for video tutorial, written tutorial, or tech conference, and want your learners to easily get the up and running quickly. Here's is what you can do:
+
+- In templates you can find tutorials
+- Create a folder for your starter, name your folder using this format: id-yourFirstName(or tutorial name)-shortTopic.
+
+> Example: `2Q-Anayo-setup-mocha&chai`
+
+Id: should be two letter only and must be unique
+your name: You can use your firstname, short-name, company name or tutorial name, but mustn't be longer than 6 characters
+Short topic: the topic of your tutorial, make it as short as possible.
+
+This is to make sure the name is not too long, you can add further details about the tutorial, on the tutorial readme.
+
+- Next add your starter in the folder. Create a README.md and add the description of your project.
+
+- Lastly add readme to Quicksi online documentation, [let this be your guide](#)
+
+
+## Update Quicksi online documentation
+You can update the documentation of quicksi, found something that won't be clear to others, your update is very welcome.
+
+- documentation can found on the [docs folder]()
+- Update the documentation and raise a PR
+- See this guide before you raise a PR [Guide](#Guidelines)
+
+
+## Report or fix a bug on a Quicksi project
+Found a bug and want to fix it, thank you in advance:
+
+- fix the bug
+- Update the quicksi web documentation if it's a breaking change
+- Check the [guidelines](#Guidelines) and raise a PR
+
 ## Last step?
 
 Great, to make you really know you contribute to quicksi:
@@ -229,6 +259,9 @@ You can use some other ESLint plugins, such as the [Prettier](https://github.com
 
 Please make sure that the code you are pushing conforms to the style guides mentioned above.
 
+## About-starters
+- Starters are not a full functionality codebase, shouldn't be. They should be what any developer can easily start writing the frontend design or start developing an API or any other thing easily.
+- Take care of the file size of starters
 
 ## Merging period
 New contributions are checked and merged in every weekend. If you have a video tutorial or tech conference and cannot wait for the weekend before merge, kindly raise a PR and reach out to me on: 
