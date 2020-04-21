@@ -1,3 +1,7 @@
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/react-js/react-js-webpack%26redux%26jest.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack%26redux%26jest) 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack%26redux%26jest/issues)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
 # <%= projectName %>
 
 ## Quick Start
