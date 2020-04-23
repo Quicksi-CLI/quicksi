@@ -1,15 +1,14 @@
 # Contributing
 First off, thank you so much for taking the time to contribute. All contributions are more than welcome!
 
-Quicksi calls her contributors *Superheroes🦸‍♂️* You are a superhero!
+Quicksi calls contributors *Superheroes🦸‍♂️* You are a superhero!
 
 Instructions to guide you through the process:
 
-**Starters** Are the templates or boiler plates, users get to start their project with. Learn more about starters [here](#About-starters)
 
 ## First step?
 
-- **Create an issue** to explain and discuss the details, not compulsory.
+- **Create an issue** to explain and discuss the details, not compulsory. see how [here]()
 - **Fork the repo**
 - **All templates are found in ```src/``` folder**
 - **Clone the forked repo** and set it up (check out the [What to contribute section](#What-can-I-contribute?) to know what you can contribute)
@@ -17,18 +16,18 @@ Instructions to guide you through the process:
 
 
 ## What can I contribute?
-- [New starters in any framework in the programming language supported by the platform](#new-starters-in-any-framework)
+- [New starters (in any framework )in the programming language supported by the platform](#new-starters-in-any-framework)
 - [New framework with a new starter](#New-framework-with-a-new-starter)
-- [Updates on the starters available](#Updates-on-the-starters-available)
-- [Another starter with a different code or folder structure from the one that exist](#Another-starter-with-a-different-code-or-folder-structure-from-the-one-that-exist)
-- [create a starter for a tutorial](#create-a-starter-for-a-tutorial)
+- [Updates on the existing starters](#Updates-on-the-starters-available)
+- [creating a copy of an existing starter but with a different code or folder structure](#Another-starter-with-a-different-code-or-folder-structure-from-the-one-that-exist)
+- [Create a starter for a tutorial](#create-a-starter-for-a-tutorial)
 - [Update Quicksi online documentation](#Update-Quicksi-online-documentation)
 - [Report or fix a bug on a Quicksi project](#Report-or-fix-a-bug-on-a-Quicksi-project)
 
 
 
-## New-starters-in-any-framework
-> If the framework of your new starter already exist in templates:
+## New starters in any framework
+> If the framework or library of your new starter already exist in templates:
 
 - In the required template folder, and in the respective Programming language folder, create a new folder inside the framework folder you want to create:
 
@@ -54,10 +53,11 @@ quicksi
 npx quicksi
 ```
 
+- Next, checkout `index.ts` in src, and update the condition accordingly
 
 - Works, you can see and test your template? Great!
 
-- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here]()
+- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
 
 - See [Last Step](#Last-step)
 
@@ -66,20 +66,21 @@ npx quicksi
 ## New framework with a new starter
 > This will take a little bit of configuration, but we'll make it faster for you:
 
-- Create a new folder for the new framework in the respective Programming language folder and add your new and very first starter for that framework.
+- Create a new folder for the new framework in the respective Programming language folder and add in the very first starter for that framework.
 
 - Next, add an extra condition, in src/index.ts file
 
-- Between `line 14 - line 24`, create a variable and point it to the path of the new framework you created:
+- Create a variable and point it to the path of the new framework you created:
 ```bash
 e.g
 
 const REACTJS = fs.readdirSync(path.join(__dirname, 'templates/<the programming language you created it on>/<your new framework>'));
 ```
 
-- The last, between `line 101 - line 143`, kindly add a new condition for your new framework, read the comments to know where to add them:
+- The last, kindly add a new condition for your new framework, read the comments to know where to add them:
 
 - 
+for example:
 
 ```bash
   {
@@ -116,11 +117,9 @@ npx quicksi
 
 Works, you can see and test your template?
 
-- Next step, update the website documentation in order to make your new framework visible on quicksi web docs. See how [here]()
+- If yes, then next step, update the website documentation in order to make your new framework visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
 
 See [Last Step](#Last-step)
-
-for-example- an old or deprecated tool
 
 
 ## Updates on the starters available
@@ -151,15 +150,15 @@ npx quicksi
 
 Works, you can see and test your template?
 
-- Last and Next step, do this require you updating the web-documentation? If so update the website documentation in order to make your new framework visible on quicksi web docs. See how [here]()
+- Last and next step, does your update or fix require you updating the web-documentation? If so update the website documentation in order to make your new framework visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
 
 See [Last Step](#Last-step)
 
 
-## Another starter with a different code or folder structure from the one that exist
-You have another code style or folder structure that has helped you really well and you want to add but there already exist a starter already but different code-structure? No worries, you can go ahead and add.
+## Copy of an existing starter but with a different code or folder structure
+You have another code style or folder structure and you want to add but there already exist a starter with the same framework but different code-structure? No worries, you can go ahead and add.
 
-- create you new starter folder, leave it to be the same name as the previous starter if they using exactly the same tools. But note add a unique identity in front of it. Use `1x` count up. E.g; `react-js-2x`, this is if `react-js-1x` already exist.
+- create your new starter folder, leave it to be the same name as the previous starter if they using exactly the same tools. But note add a unique identity in front of it. Use `1x` count up. E.g; `react-js-2x`, this is if `react-js-1x` already exist.
 - Now test your template locally
 
 
@@ -185,34 +184,35 @@ npx quicksi
 
 - Works, you can see and test your template and use it? Great!
 
-- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here]()
+- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
 
 - See [Last Step](#Last-step)
 
 
 ## create a starter for a tutorial, or tech conference.
-Quicksi can enable your learners get up and running with your code starter, for video tutorial, written tutorial, or tech conference, and want your learners to easily get the up and running quickly. Here's is what you can do:
+Quicksi can enable your learners get up and running with your code starter, for video tutorial, written tutorial, or tech conference, or any workshop where you want learners to use a starter. Here's is what you can do:
 
-- In templates you can find tutorials
-- Create a folder for your starter, name your folder using this format: id-yourFirstName(or tutorial name)-shortTopic.
+- In `templates/` file you'll find `tutorials`
+- Create a folder for your starter, name your folder using a unique number, 3 in length.
+You can create a number that does not exist among the templates.
 
-> Example: `2Q-Anayo-setup-mocha&chai`
+> Example: `126`
 
-Id: should be two letter only and must be unique
-your name: You can use your firstname, short-name, company name or tutorial name, but mustn't be longer than 6 characters
-Short topic: the topic of your tutorial, make it as short as possible.
+**Number must be unique among the numbers on the templates**
 
-This is to make sure the name is not too long, you can add further details about the tutorial, on the tutorial readme.
+Identifying, with numbers helps students to easily locate your starter and generate it. 
 
 - Next add your starter in the folder. Create a README.md and add the description of your project.
 
-- Lastly add readme to Quicksi online documentation, [let this be your guide](#)
+- Next step, update the website documentation in order to make this visible on the tutorial section of the quicksi web docs. There is a different approach to take on here. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+
+- See [Last Step](#Last-step)
 
 
 ## Update Quicksi online documentation
-You can update the documentation of quicksi, found something that won't be clear to others, your update is very welcome.
+You can update the documentation of quicksi, found something that's not clear to you or others and want to simplify it, go ahead.
 
-- documentation can found on the [docs folder]()
+- See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
 - Update the documentation and raise a PR
 - See this guide before you raise a PR [Guide](#Guidelines)
 
@@ -220,13 +220,14 @@ You can update the documentation of quicksi, found something that won't be clear
 ## Report or fix a bug on a Quicksi project
 Found a bug and want to fix it, thank you in advance:
 
-- fix the bug
-- Update the quicksi web documentation if it's a breaking change
+- after fixing the bug
+- Update the quicksi web documentation if it's a breaking change.
+See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+
 - Check the [guidelines](#Guidelines) and raise a PR
 
-## Last step?
 
-Great, to make you really know you contribute to quicksi:
+## Last step?
 
 - **Implement** the necessary changes or new starters or any contribution you want to make
 - **Send a pull request**
@@ -241,7 +242,8 @@ Great, to make you really know you contribute to quicksi:
 - For new starter folder name shouldn't be higher than 30 characters
 - Append the programming language acronym, e.g, `js` for javascript.
 - All should be in lower-case letters
-- You can use `&` symbol, to break down the length of the file name.
+- You can use `&` symbol, to break down the length of the naming.
+- This applies to starter folder
 
 
 ### Git commit messages
@@ -272,19 +274,3 @@ New contributions are checked and merged in every weekend. If you have a video t
 -  [email](anayo_oleru@outlook.com)
 
 I'll review and merged.
-
-
-
-
-# Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via [issue](https://github.com/shanhuiyang/TypeScript-MERN-Starter/issues) with the owners of this repository before making a change.
-
-Please note we have a code of conduct, please follow it in all your interactions with the project.
-
-## Pull Request Process
-
-1. Ensure the tests are passing and that you have latest `master` branch merged in.
-2. Update the `README.md` with details of your changes if required.
-3. If possible, squash your commits. There must be only one commit in your PR (until a review). Then after each review requesting changes, DO NOT squash your commits with the one before the review, so that we can see intermediate modifications.
-4. You may merge the Pull Request in once you have the sign-off of other developer, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
