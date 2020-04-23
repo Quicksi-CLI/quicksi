@@ -7,7 +7,7 @@
 [![install size](https://packagephobia.now.sh/badge?p=quicksi)](https://packagephobia.now.sh/result?p=quicksi)
 
 
-Quicksi is a command line tool, setting up is as easy as possible.
+Quicksi is a command line tool with reuseable starters in different languages, frameworks and libraries designed to make it easy for developers to start projects without having to worry about the setup.
 
 ## Quick start
 To get the latest version of quick
@@ -46,3 +46,5 @@ But you'll have to check for new versions of quicksi and update the package.
 ```
 npm update -g quicksi
 ```
+
+<img alt="JavaScript" src="./documentation/static/img/done.png" class="docImage"/>
