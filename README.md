@@ -1,10 +1,13 @@
 # QUICKSI
 
+[View documentation here](https://quicksi-bot.now.sh/)
+
+[View NPM package](https://www.npmjs.com/package/quicksi)
+
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi.svg)](http://hits.dwyl.com/AnayoOleru/quicksi)
 [![npm version](https://img.shields.io/npm/v/quicksi.svg?style=flat-square)](https://www.npmjs.org/package/quicksi)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 [![npm downloads](https://img.shields.io/npm/dm/quicksi.svg?style=flat-square)](http://npm-stat.com/charts.html?package=quicksi)
-[![install size](https://packagephobia.now.sh/badge?p=quicksi)](https://packagephobia.now.sh/result?p=quicksi)
 
 
 Quicksi is a command line tool with reuseable starters in different languages, frameworks and libraries designed to make it easy for developers to start projects without having to worry about the setup.
@@ -46,5 +49,3 @@ But you'll have to check for new versions of quicksi and update the package.
 ```
 npm update -g quicksi
 ```
-
-<img alt="JavaScript" src="./documentation/static/img/done.png" class="docImage"/>
