@@ -6,7 +6,7 @@ original_id: React-Native-TS
 
 All starters for `React-native` mobile development with, `TypeScript` and the `React-native` cli support
 
-<img alt="JavaScript" src="/img/react-native.png" class="docImage"/>
+<img alt="JavaScript" src="/img/react-native.png" width= "100%" class="docImage"/>
 
 ## react-native-ts-e2e
 

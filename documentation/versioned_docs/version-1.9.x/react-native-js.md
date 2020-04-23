@@ -7,7 +7,7 @@ original_id: React-Native-JS
 
 All starters for `React-native` mobile development with, `JavaScript` and the `React-native` cli
 
-<img alt="JavaScript" src="/img/react-native.png" class="docImage"/>
+<img alt="JavaScript" src="/img/react-native.png" width= "100%" class="docImage"/>
 
 ## react-native-gql&AWS
 

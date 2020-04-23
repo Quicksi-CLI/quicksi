@@ -22,7 +22,7 @@ function HomeSplash(props) {
           />
           {siteConfig.title} is a command line{' '}
           {/* <span className="index-hero-project-keywords">Open Source</span>{' '} */}
-          bot, and will help you start new projects easily
+          bot, and can help you start new projects easily
         </h1>
         <div className="index-ctas">
           <a
@@ -78,7 +78,7 @@ class Index extends React.Component {
                   title: <translate>Enhance productivity</translate>,
                 },
                 {
-                  content: `Speakers, workshops, tutorials, enable students get easy access to all their tutorial starters, without needing to clone a repo or access the internet.`,
+                  content: `Tech Speakers or code instructors during workshops, doing tutorials or conferences can enable students or audience get easy access to all their tutorial starters, without needing to clone a repository all the time`,
                   image: `${siteConfig.baseUrl}img/access.svg`,
                   imageAlign: 'right',
                   imageAlt: 'React',

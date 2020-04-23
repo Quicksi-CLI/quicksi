@@ -4,7 +4,7 @@ title: FullStack-TypeScript
 original_id: FullStack-TypeScript
 ---
 
-<img alt="Typescript" src="/img/ts.png" class="docImage"/>
+<img alt="Typescript" src="/img/ts.png" width= "100%" class="docImage"/>
 
 ## MERN-ts-app&test
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/typescript/fullstack-starters/MERN-ts-app%26test.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/typescript/fullstack-starters/MERN-ts-app%26test) 

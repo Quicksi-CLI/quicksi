@@ -6,7 +6,7 @@ original_id: Node-JS
 
 Below are the Quicksi Node JavaScript starters, starter name, folder structures, and dependencies.
 
-<img alt="Typescript" src="/img/nodejs.png" class="docImage"/>
+<img alt="Typescript" src="/img/nodejs.png" width= "100%" class="docImage"/>
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
@@ -50,7 +50,6 @@ Below are the Quicksi Node JavaScript starters, starter name, folder structures,
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-babel)
 
->
 ***starter name***
 
 ```bash
@@ -106,7 +105,6 @@ Below are the Quicksi Node JavaScript starters, starter name, folder structures,
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-mocha%26chai)
 
->
 ***starter name***
 
 ```bash
@@ -191,7 +189,6 @@ Below are the Quicksi Node JavaScript starters, starter name, folder structures,
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-mongo)
 
->
 ***starter name***
 
 ```bash
@@ -247,7 +244,6 @@ Below are the Quicksi Node JavaScript starters, starter name, folder structures,
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-mongo%26gql)
 
->
 ***starter name***
 
 ```bash
@@ -290,7 +286,6 @@ Below are the Quicksi Node JavaScript starters, starter name, folder structures,
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-apollo%26gql)
 
->
 ***starter name***
 
 ```bash
@@ -346,7 +341,6 @@ Below are the Quicksi Node JavaScript starters, starter name, folder structures,
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/node-js/node-js-pg%26sequelize)
 
->
 ***starter name***
 
 ```bash

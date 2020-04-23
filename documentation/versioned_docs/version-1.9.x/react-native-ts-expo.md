@@ -6,7 +6,7 @@ original_id: React-Native-TS-Expo
 
 All starters for `React-native` mobile development with, `Typescript` and `Expo`
 
-<img alt="Typescript" src="/img/expo.png" class="docImage"/>
+<img alt="Typescript" src="/img/expo.png" width= "100%" class="docImage"/>
 
 ## react-native-ts-gql&apollo
 

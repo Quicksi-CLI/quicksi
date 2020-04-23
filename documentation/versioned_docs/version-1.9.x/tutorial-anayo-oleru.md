@@ -6,7 +6,7 @@ original_id: tutorial-anayo-oleru
 
 I am a Software Engineer and lover of open-source.
 
-<img alt="quicksi" src="/img/mocha&chai.png" class="docImage"/>
+<img alt="quicksi" src="/img/mocha&chai.png" width= "100%" class="docImage"/>
 
 ## Easy Setup For NodeJS Test with Mocha And Chai ```126```
 

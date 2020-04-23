@@ -5,6 +5,7 @@ original_id: Node-TS
 ---
 
 Below are the Quicksi Node TypeScript starters, starter name, folder structures, and dependencies.
+<img alt="Typescript" src="/img/nodets.svg" width= "100%" class="docImage"/>
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
@@ -23,13 +24,12 @@ Below are the Quicksi Node TypeScript starters, starter name, folder structures,
 ```
 
 ### Features
-- Backend Node with Typescript
+- Backend `ts-node` with `typescript`
 - Typescript configured
 
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/node-ts/node-ts-simple)
 
->
 ***starter name***
 
 ```bash
@@ -62,10 +62,15 @@ Below are the Quicksi Node TypeScript starters, starter name, folder structures,
   }
 ```
 
+### Features
+- Backend `ts-node` with `typescript`
+- Typescript configured
+- `GraphQL` configured
+
+
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/node-ts/node-ts-gql-simple)
 
->
 ***starter name***
 
 ```bash
@@ -118,10 +123,19 @@ Below are the Quicksi Node TypeScript starters, starter name, folder structures,
   }
 ```
 
+### Features
+- Backend `ts-node` with `typescript`
+- Typescript configured
+- `MySQL` Database
+- Sequelize ORM
+- Sign-up and Login sample
+- Validator for sign-up and sign-in
+- Sample user model and migration file with MYSQL
+- Sample controller, middlewares and routes for login and Signup
+
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/node-ts/node-ts-mysql%26sequelize)
 
->
 ***starter name***
 
 ```bash
@@ -183,10 +197,16 @@ Below are the Quicksi Node TypeScript starters, starter name, folder structures,
   },
 ```
 
+### Features
+- Backend `ts-node`, `typescript` and expressJS
+- SQLite for data storage
+- TypeORM for object relational mapping
+- PassportJS as authentication middleware
+
+
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/node-ts/node-ts-typeorm%26sqlite)
 
->
 ***starter name***
 
 ```bash

@@ -4,7 +4,7 @@ title: FullStack-JavaScript
 original_id: FullStack-JavaScript
 ---
 
-<img alt="JavaScript" src="/img/js.png" class="docImage"/>
+<img alt="JavaScript" src="/img/js.png" width= "100%" class="docImage"/>
 
 ## fullstack-js-node&react
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/fullstack-starters/fullstack-js-node%26react.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/fullstack-starters/fullstack-js-node%26react) 

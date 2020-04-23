@@ -5,10 +5,13 @@ original_id: React-JS
 ---
 Below are the Quicksi ReactJS starters, their folder structures, and dependencies.
 
+<img alt="Typescript" src="/img/reactjs.png" width= "100%" class="docImage"/>
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
+
 ## react-js-redux
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/react-js/react-js-redux.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-redux) 
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
 Start a React and Redux project setup for you already. Created with Create React app
 
@@ -26,10 +29,15 @@ Start a React and Redux project setup for you already. Created with Create React
   },
 ```
 
+### Features
+- `ReactJS`
+- `Redux` store management
+- Sample dummy redux already setup
+
+
 *View Code Structure*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-redux)
 
->
 ***starter name***
 
 ```bash
@@ -39,13 +47,9 @@ Start a React and Redux project setup for you already. Created with Create React
 ```
 
 
-
-
-
 ## react-js-webpack
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/react-js/react-js-webpack.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack) 
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
 > You don't want a start with create-react-app? Here is a starter with an already configured webpack for you.
 
@@ -105,10 +109,17 @@ Start a React and Redux project setup for you already. Created with Create React
   },
 ```
 
+### Features
+- Configured webpack, for development and production
+- `Babel` transcompiler
+- Linters `Eslint` and `Prettier`
+- Code coverage with `codeclimate` and `travis`
+- Node sass
+- Toaster with `toastify`
+
 *View Code Structure*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack)
 
->
 ***starter name***
 
 ```bash
@@ -119,8 +130,6 @@ Start a React and Redux project setup for you already. Created with Create React
 
 ## react-js-webpack&jest
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/react-js/react-js-webpack%26jest.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack%26jest) 
-
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
 > Generates webpack configuration, Jest and Enzyme for test. All setup for you.
 
@@ -188,10 +197,18 @@ Start a React and Redux project setup for you already. Created with Create React
   }
 ```
 
+### Features
+- Configured webpack, for development and production
+- `Babel` transcompiler
+- Linters `Eslint` and `Prettier`
+- Code coverage with `codeclimate` and `travis`
+- Node sass
+- Toaster with `toastify`
+- Jest testing framework
+
 *View Code Structure*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack%26jest)
 
->
 ***starter name***
 
 ```bash
@@ -203,8 +220,6 @@ Start a React and Redux project setup for you already. Created with Create React
 ## react-js-webpack&redux&jest
 
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/react-js/react-js-webpack%26redux%26jest.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack%26redux%26jest) 
-
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack%26redux%26jest/issues)
 
 > Generates webpack configuration, Jest, Enzyme for test and redux application state manager configuration. All setup.
 
@@ -277,10 +292,21 @@ Start a React and Redux project setup for you already. Created with Create React
   }
 ```
 
+### Features
+- Configured webpack, for development and production
+- `Babel` transcompiler
+- Linters `Eslint` and `Prettier`
+- Code coverage with `codeclimate` and `travis`
+- `Redux` store management
+- Sample redux action and reducers
+- Node sass
+- Toaster with `toastify`
+- Jest testing framework
+- Enzyme testing utility
+
 *View Code Structure*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/javascript/react-js/react-js-webpack%26redux%26jest)
 
->
 ***starter name***
 
 ```bash

@@ -6,6 +6,8 @@ original_id: React-TS
 
 Below are the Quicksi React typescript starters, their starter name, folder structures, and dependencies.
 
+<img alt="Typescript" src="/img/reactts.png" width= "100%" class="docImage"/>
+
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
 ## react-ts 
@@ -33,10 +35,14 @@ Below are the Quicksi React typescript starters, their starter name, folder stru
   }
 ```
 
+### Features
+- Simple `react` `typescript` starter
+- `Typescript` configuration for production and test
+- `Jest` testing framework
+
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/react-ts/react-ts)
 
->
 ***starter name***
 
 ```bash
@@ -77,10 +83,15 @@ Below are the Quicksi React typescript starters, their starter name, folder stru
   }
 ```
 
+### Features
+- Simple `react` typescript starter with `redux`
+- Demo `redux`, `action`, `store` and `reducer`
+- Typescript configuration for production and test
+
+
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/react-ts/react-ts-redux)
 
->
 ***starter name***
 
 ```bash
@@ -133,10 +144,15 @@ Below are the Quicksi React typescript starters, their starter name, folder stru
   },
 ```
 
+### Features
+- Webpack configuration for production, and development
+- Jest configuration with preprocessor and for test
+- Linting `tslint`
+
+
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/react-ts/react-ts-webpack%26jest)
 
->
 ***starter name***
 
 ```bash
@@ -198,10 +214,15 @@ Below are the Quicksi React typescript starters, their starter name, folder stru
   }
 ```
 
+### Features
+- No babel
+- Ultra performance
+- Setup for ts-loader and awesome-typescript-loader for comparison (check npm run dev or npm run dev:awesome)
+- React Hot Loader
+
 *After generating this starter, you code will look like this*
 [View here](https://github.com/AnayoOleru/quicksi/tree/master/templates/typescript/react-ts/react-ts-webpack%26redux%26jest)
 
->
 ***starter name***
 
 ```bash

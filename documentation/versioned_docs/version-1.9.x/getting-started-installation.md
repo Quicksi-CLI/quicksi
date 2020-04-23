@@ -4,15 +4,16 @@ title: Getting started
 original_id: installation
 ---
 
+[View documentation here](https://quicksi-bot.now.sh/)
+
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi.svg)](http://hits.dwyl.com/AnayoOleru/quicksi)
 
-[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
+[![npm version](https://img.shields.io/npm/v/quicksi.svg?style=flat-square)](https://www.npmjs.org/package/quicksi)
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
-[![npm downloads](https://img.shields.io/npm/dm/axios.svg?style=flat-square)](http://npm-stat.com/charts.html?package=axios)
+[![npm downloads](https://img.shields.io/npm/dm/quicksi.svg?style=flat-square)](http://npm-stat.com/charts.html?package=quicksi)
 
-[![install size](https://packagephobia.now.sh/badge?p=axios)](https://packagephobia.now.sh/result?p=axios)
 
 
 ## Quick start
@@ -65,7 +66,7 @@ npm update -g quicksi
 
 > Your new starter will be automatically generated for you! Quicksi!
 
-<img alt="JavaScript" src="/img/done.png" class="docImage"/>
+<img alt="JavaScript" src="/img/done.png" width= "100%" class="docImage"/>
 
 ***Note: Due to several updates on dependencies, some dependencies might be using the old version. Kindly update them after they've been generated, before use, or raise a bug-fix to update the dependencies. Quicksi maintainer updates and merge in new features including the ones from contributors every weekend, and will try as much as possible to update the dependencies with older versions as well.***
 
