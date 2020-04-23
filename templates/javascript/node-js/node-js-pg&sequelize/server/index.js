@@ -23,7 +23,7 @@ app.all('*', (req, res) => {
 });
 
 app.listen(port, () => {
-  logger(`Server Running at:
+  logger(`Quicksi Server Running at:
   http://localhost:${getEnv('PORT', port)}`);
 });
 

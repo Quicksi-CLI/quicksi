@@ -23,7 +23,7 @@ Built-in features, such as authentication using JWT, request validation, unit an
 - **CORS**: Cross-Origin Resource-Sharing enabled using [cors](https://github.com/expressjs/cors)
 - **Compression**: gzip compression with [compression](https://github.com/expressjs/compression)
 - **CI**: continuous integration with [Travis CI](https://travis-ci.org)
-- **Docker support**
+- ** support**
 - **Linting**: with [ESLint](https://eslint.org) and [Prettier](https://prettier.io)
 - **Editor config**: consistent editor configuration using [EditorConfig](https://editorconfig.org)
 

@@ -1,0 +1,29 @@
+{
+  "version-1.9.x-docs": {
+    "Getting Started": [
+      "version-1.9.x-installation",
+      "version-1.9.x-Supported programming Language"
+    ],
+    "JavaScript": [
+      "version-1.9.x-React-JS",
+      "version-1.9.x-Node-JS",
+      "version-1.9.x-React-Native-JS",
+      "version-1.9.x-React-Native-JS-Expo",
+      "version-1.9.x-FullStack-JavaScript"
+    ],
+    "TypeScript": [
+      "version-1.9.x-React-TS",
+      "version-1.9.x-Node-TS",
+      "version-1.9.x-React-Native-TS",
+      "version-1.9.x-React-Native-TS-Expo",
+      "version-1.9.x-FullStack-TypeScript"
+    ],
+    "Tutorials": [
+      "version-1.9.x-tutorial-getting-started",
+      "version-1.9.x-tutorial-anayo-oleru"
+    ],
+    "Guides": [
+      "version-1.9.x-contributing-to-quicksi"
+    ]
+  }
+}
