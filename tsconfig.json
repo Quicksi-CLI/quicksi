@@ -19,7 +19,8 @@
       "node_modules",
       "dist",
       "templates",
-      "documentation"
+      "documentation",
+      "docs"
     ]
   }
   

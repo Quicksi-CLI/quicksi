@@ -1,10 +1,10 @@
 # QUICKSI
 
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi.svg)](http://hits.dwyl.com/AnayoOleru/quicksi)
-[![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/axios)
+[![npm version](https://img.shields.io/npm/v/quicksi.svg?style=flat-square)](https://www.npmjs.org/package/quicksi)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
-[![npm downloads](https://img.shields.io/npm/dm/axios.svg?style=flat-square)](http://npm-stat.com/charts.html?package=axios)
-[![install size](https://packagephobia.now.sh/badge?p=axios)](https://packagephobia.now.sh/result?p=axios)
+[![npm downloads](https://img.shields.io/npm/dm/quicksi.svg?style=flat-square)](http://npm-stat.com/charts.html?package=quicksi)
+[![install size](https://packagephobia.now.sh/badge?p=quicksi)](https://packagephobia.now.sh/result?p=quicksi)
 
 
 Quicksi is a command line tool, setting up is as easy as possible.
