@@ -65,6 +65,11 @@ const REACT_NATIVE_CLI_JS = fs.readdirSync(
   path.join(__dirname, "templates/javascript/react-native-js")
 );
 
+// file path for Angular JS
+const ANGULARJS = fs.readdirSync(
+  path.join(__dirname, "templates/javascript/angular-js")
+);
+
 // FILE PATH END
 
 
@@ -95,6 +100,7 @@ const QUESTIONS: Array<Object> = [
    * - react-native-ts
    *
    * JavaScript
+   * - angular-js
    * - react-js
    * - node-js
    * - react-native-ts
@@ -236,6 +242,15 @@ const QUESTIONS: Array<Object> = [
   },
 
   // Add starters that are JavaScript here
+  {
+    name: "jsStarters",
+    type: "list",
+    message: "Nearly finished! Choose the starter you want quicksi to generate for you",
+    choices: ANGULARJS,
+    when: (answer4: { javaScriptFrameworkLibrary: string }) => {
+      return answer4.javaScriptFrameworkLibrary === "angular-js";
+    },
+  },
   {
     name: "jsStarters",
     type: "list",
