@@ -1,21 +1,14 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
 
-/* List of projects/orgs using your project for the users page */
 const users = require('./data/users');
 
 const siteConfig = {
   title: 'Quicksi',
   tagline: 'Start new project easily',
-  url: 'https://AnayoOleru.io',
+  url: 'https://quicksi-bot.now.sh/',
   baseUrl: '/',
-  organizationName: 'AnayoOleru',
+  organizationName: 'Quicksi',
   projectName: 'quicksi',
-  cname: 'quicksi.io',
+  cname: 'quicksi-bot.now.sh',
   noIndex: false,
   users,
   editUrl: 'https://github.com/facebook/docusaurus/edit/master/docs/',

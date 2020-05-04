@@ -21,7 +21,7 @@ class Users extends React.Component {
           <div className="showcaseSection">
             <div className="prose">
               <h1>
-                <translate>Who is using Docusaurus?</translate>
+                <translate>Who is using Quicksi?</translate>
               </h1>
               <p>
                 Quicksi has been used for some popular apps{' '}
