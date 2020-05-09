@@ -1,7 +1,7 @@
 ---
-id: version-1.9.x-React-JS
+id: version-1.0.2-React-JS
 title: React-JS
-original_id: React-JS
+original_id: version-1.0.2-React-JS
 ---
 Below are the Quicksi ReactJS starters, their folder structures, and dependencies.
 

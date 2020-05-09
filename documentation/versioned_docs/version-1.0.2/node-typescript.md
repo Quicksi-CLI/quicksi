@@ -1,7 +1,7 @@
 ---
-id: version-1.9.x-Node-TS
+id: version-1.0.2-Node-TS
 title: Node-TS
-original_id: Node-TS
+original_id: version-1.0.2-Node-TS
 ---
 
 Below are the Quicksi Node TypeScript starters, starter name, folder structures, and dependencies.

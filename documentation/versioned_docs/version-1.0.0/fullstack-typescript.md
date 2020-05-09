@@ -1,5 +1,5 @@
 ---
-id: version-1.9.x-FullStack-TypeScript
+id: version-1.0.0-FullStack-TypeScript
 title: FullStack-TypeScript
 original_id: FullStack-TypeScript
 ---

@@ -1,7 +1,7 @@
 ---
-id: version-1.9.x-installation
+id: version-1.0.2-installation
 title: Getting started
-original_id: installation
+original_id: version-1.0.2-installation
 ---
 
 [View documentation here](https://quicksi-bot.now.sh/)

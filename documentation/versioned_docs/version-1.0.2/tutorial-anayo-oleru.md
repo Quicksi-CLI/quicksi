@@ -1,7 +1,7 @@
 ---
-id: version-1.9.x-tutorial-anayo-oleru
+id: version-1.0.2-tutorial-anayo-oleru
 title: Anayo Oleru
-original_id: tutorial-anayo-oleru
+original_id: version-1.0.2-tutorial-anayo-oleru
 ---
 
 I am a Software Engineer and lover of open-source.

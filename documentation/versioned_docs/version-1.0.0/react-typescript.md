@@ -1,5 +1,5 @@
 ---
-id: version-1.9.x-React-TS
+id: version-1.0.0-React-TS
 title: React-TS
 original_id: React-TS
 ---

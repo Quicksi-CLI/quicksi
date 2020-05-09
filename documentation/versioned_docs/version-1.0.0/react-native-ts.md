@@ -1,5 +1,5 @@
 ---
-id: version-1.9.x-React-Native-TS
+id: version-1.0.0-React-Native-TS
 title: React-Native-TS
 original_id: React-Native-TS
 ---

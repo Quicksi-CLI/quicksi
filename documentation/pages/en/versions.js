@@ -66,7 +66,7 @@ function Versions(props) {
           </tbody>
           <br/>
           <br/>
-          {/* <table className="versions">
+          <table className="versions">
             <tbody>
               {versions.map(
                 (version) =>
@@ -86,7 +86,7 @@ function Versions(props) {
                   ),
               )}
             </tbody>
-          </table> */}
+          </table>
           <p>
             You can find past versions of this project on{' '}
             <a href={`${repoUrl}/releases`}>GitHub</a>.

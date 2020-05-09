@@ -1,7 +1,7 @@
 ---
-id: version-1.9.x-tutorial-getting-started
+id: version-1.0.2-tutorial-getting-started
 title: Getting started
-original_id: tutorial-getting-started
+original_id: version-1.0.2-tutorial-getting-started
 ---
 
 The tutorial section contains starters of tutorials from tech or code instructors, for easy access, and setup.

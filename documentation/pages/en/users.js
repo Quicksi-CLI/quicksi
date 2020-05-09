@@ -25,7 +25,7 @@ class Users extends React.Component {
               </h1>
               <p>
                 Quicksi has been used for some popular apps{' '}
-                <a href="https://opensource.facebook.com/">
+                <a href="#">
                   open source projects
                 </a>
                 .
@@ -46,7 +46,7 @@ class Users extends React.Component {
               </p>
               <p>
                 Edit this page with a{' '}
-                <a href="https://github.com/facebook/docusaurus/edit/master/website-1.x/data/users.js">
+                <a href="#">
                   Pull Request
                 </a>{' '}
                 to add your logo.

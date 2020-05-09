@@ -1,5 +1,5 @@
 ---
-id: version-1.9.x-Node-JS
+id: version-1.0.0-Node-JS
 title: Node-JS
 original_id: Node-JS
 ---

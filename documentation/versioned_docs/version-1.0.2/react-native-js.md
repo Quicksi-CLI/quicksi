@@ -1,7 +1,7 @@
 ---
-id: version-1.9.x-React-Native-JS
+id: version-1.0.2-React-Native-JS
 title: React-Native-JS
-original_id: React-Native-JS
+original_id: version-1.0.2-React-Native-JS
 ---
 
 

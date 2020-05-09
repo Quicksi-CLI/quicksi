@@ -1,5 +1,5 @@
 ---
-id: version-1.9.x-FullStack-JavaScript
+id: version-1.0.0-FullStack-JavaScript
 title: FullStack-JavaScript
 original_id: FullStack-JavaScript
 ---

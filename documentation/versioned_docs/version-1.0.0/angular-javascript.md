@@ -1,5 +1,5 @@
 ---
-id: version-1.9.x-Angular-JS
+id: version-1.0.0-Angular-JS
 title: Angular-JS
 original_id: Angular-JS
 ---
@@ -10,7 +10,7 @@ Below are Quicksi AngularJS starters and dependencies.
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
 ## angular-js-webpack
-[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/react-js/react-js-redux.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/angular-js/angular-js-webpack) 
+[![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi/ree/master/templates/javascript/angular-js/angular-js-webpack.svg)](http://hits.dwyl.com/AnayoOleru/quicksi/tree/master/templates/javascript/angular-js/angular-js-webpack) 
 
 
 Start an AngularJS (1.x) using Webpack (2.x) already setup for you. Complete, yet simple and generic.

@@ -1,5 +1,5 @@
 ---
-id: version-1.9.x-React-Native-TS-Expo
+id: version-1.0.0-React-Native-TS-Expo
 title: React-Native-TS-Expo
 original_id: React-Native-TS-Expo
 ---
