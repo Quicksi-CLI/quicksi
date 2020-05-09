@@ -14,7 +14,7 @@ const port = process.env.PORT || 6000;
 dotenv.config();
 
 app.get('/', (req, res) => {
-  res.send('Welcome to <%= projectName %>"');
+  res.send('Welcome to <%= projectName %>');
 });
 
 

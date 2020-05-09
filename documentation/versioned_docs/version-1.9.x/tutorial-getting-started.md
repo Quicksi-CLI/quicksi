@@ -11,12 +11,12 @@ Categories of tutorials that are on this section or can be used in this section 
 ## Video tutorial
 
 
-<img alt="quicksi" src="/img/video.svg" class="docImage"/>
+<img alt="quicksi" src="/img/video.svg" width= "100%" class="docImage"/>
 
 Video coding tutorial starters, if you have a starter you want your listeners code along with you as they listen to your tutorial, you can host them here on quicksi.
 
 ## Written tutorial
-<img alt="quicksi" src="/img/written.svg" class="docImage"/>
+<img alt="quicksi" src="/img/written.svg" width= "100%" class="docImage"/>
 
 You wrote tutorial that involves them following up with a starter you created. You can help them easily access your starter by hosting your starter on Quicksi.
 
