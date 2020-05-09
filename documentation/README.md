@@ -45,7 +45,7 @@ original_id:  <name of files in  other starter>
 
 - Then document the starter you just created
 
-- Go into `Versioned_sidebars` with the specified version and add the ID you created on the doc file as a value to the array of the framework's programming language.
+- Go into `Versioned_sidebars` with the specified version and add the ID you created on the doc file as a value to the array, under the programming language of the framework.
 
 - Start or restart the server and see if it has reflected.
 
