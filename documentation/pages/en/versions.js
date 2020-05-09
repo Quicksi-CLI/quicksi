@@ -61,9 +61,6 @@ function Versions(props) {
           <p>
             Here you can find documentation for previous versions
           </p>
-          <tbody>
-            <tr>No previous versions yet</tr>
-          </tbody>
           <br/>
           <br/>
           <table className="versions">
