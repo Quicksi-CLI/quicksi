@@ -1,7 +1,7 @@
 ---
 id: version-1.0.2-Node-JS
 title: Node-JS
-original_id: Node-JS
+original_id: version-1.0.2-Node-JS
 ---
 
 Below are the Quicksi Node JavaScript starters, starter name, folder structures, and dependencies.

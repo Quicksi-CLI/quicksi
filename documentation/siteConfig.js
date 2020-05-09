@@ -11,7 +11,6 @@ const siteConfig = {
   cname: 'quicksi-bot.now.sh',
   noIndex: false,
   users,
-  editUrl: 'https://github.com/facebook/docusaurus/edit/master/docs/',
   headerLinks: [
     {doc: 'installation', label: 'Docs'},
     // {page: 'users', label: 'Users'},
@@ -22,20 +21,13 @@ const siteConfig = {
     },
   ],
   headerIcon: 'img/quicksi.png',
-  // footerIcon: 'img/docusaurus_monochrome.svg',
+  // footerIcon: 'img/quicksi_monochrome.svg',
   favicon: 'img/quicksi.png',
-  // algolia: {
-  //   apiKey: '3eb9507824b8be89e7a199ecaa1a9d2c',
-  //   indexName: 'docusaurus',
-  //   algoliaOptions: {
-  //     facetFilters: ['language:LANGUAGE', 'version:VERSION'],
-  //   },
-  // },
   colors: {
     primaryColor: '#D0582C',
     secondaryColor: '#205C3B',
   },
-  // translationRecruitingLink: 'https://crowdin.com/project/docusaurus',
+  // translationRecruitingLink: 'https://crowdin.com/project/quicksi',
   copyright: `Copyright © ${new Date().getFullYear()} Quicksi`,
   usePrism: ['jsx'],
   highlight: {
@@ -46,8 +38,6 @@ const siteConfig = {
     'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
     '/js/code-blocks-buttons.js',
   ],
-  // gaTrackingId: 'UA-44373548-31',
-  // facebookAppId: '199138890728411',
   facebookComments: true,
   twitter: 'true',
   twitterUsername: 'AnayoOleru',

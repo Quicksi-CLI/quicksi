@@ -1,5 +1,5 @@
 ---
-id: version-1.0.2-installation
+id: version-1.0.0-installation
 title: Getting started
 original_id: installation
 ---

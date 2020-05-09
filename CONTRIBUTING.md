@@ -57,7 +57,7 @@ npx quicksi
 
 - Works, you can see and test your template? Great!
 
-- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documentation/README.md)
 
 - See [Last Step](#Last-step)
 
@@ -117,7 +117,7 @@ npx quicksi
 
 Works, you can see and test your template?
 
-- If yes, then next step, update the website documentation in order to make your new framework visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+- If yes, then next step, update the website documentation in order to make your new framework visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documentation/README.md)
 
 See [Last Step](#Last-step)
 
@@ -150,7 +150,7 @@ npx quicksi
 
 Works, you can see and test your template?
 
-- Last and next step, does your update or fix require you updating the web-documentation? If so update the website documentation in order to make your new framework visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+- Last and next step, does your update or fix require you updating the web-documentation? If so update the website documentation in order to make your new framework visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documentation/README.md)
 
 See [Last Step](#Last-step)
 
@@ -184,7 +184,7 @@ npx quicksi
 
 - Works, you can see and test your template and use it? Great!
 
-- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+- Next step, update the website documentation in order to make this visible on quicksi web docs. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documentation/README.md)
 
 - See [Last Step](#Last-step)
 
@@ -204,7 +204,7 @@ Identifying, with numbers helps students to easily locate your starter and gener
 
 - Next add your starter in the folder. Create a README.md and add the description of your project.
 
-- Next step, update the website documentation in order to make this visible on the tutorial section of the quicksi web docs. There is a different approach to take on here. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+- Next step, update the website documentation in order to make this visible on the tutorial section of the quicksi web docs. There is a different approach to take on here. See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documentation/README.md)
 
 - See [Last Step](#Last-step)
 
@@ -212,7 +212,7 @@ Identifying, with numbers helps students to easily locate your starter and gener
 ## Update Quicksi online documentation
 You can update the documentation of quicksi, found something that's not clear to you or others and want to simplify it, go ahead.
 
-- See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+- See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documentation/README.md)
 - Update the documentation and raise a PR
 - See this guide before you raise a PR [Guide](#Guidelines)
 
@@ -222,7 +222,7 @@ Found a bug and want to fix it, thank you in advance:
 
 - after fixing the bug
 - Update the quicksi web documentation if it's a breaking change.
-See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documents/README.md)
+See how [here](https://github.com/AnayoOleru/quicksi/blob/master/documentation/README.md)
 
 - Check the [guidelines](#Guidelines) and raise a PR
 

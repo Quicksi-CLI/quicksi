@@ -1,7 +1,7 @@
 ---
 id: version-1.0.2-Supported programming Language
 title: Supported programming Language
-original_id: Supported programming Language
+original_id: version-1.0.2-Supported programming Language
 ---
 
 Quicksi is growing to support other languages and their libraries or frameworks, to enable developers from all background, setup project with ease. Here are the languages currently supported by `quicksi`
