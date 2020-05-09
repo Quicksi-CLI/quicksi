@@ -70,8 +70,12 @@ const ANGULARJS = fs.readdirSync(
   path.join(__dirname, "templates/javascript/angular-js")
 );
 
-// FILE PATH END
+// file path for Vue JS
+const VUEJS = fs.readdirSync(
+  path.join(__dirname, "templates/javascript/vue-js")
+);
 
+// FILE PATH END
 
 // QUESTIONS START
 
@@ -79,7 +83,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "programmingLanguage",
     type: "list",
-    message: "Hello, I am Quicksi your personal assistant, what starter would you like to choose",
+    message:
+      "Hello, I am Quicksi your personal assistant, what starter would you like to choose",
     choices: PROGRAMMING_LANGUAGE,
     when: () => !yargs.argv["programmingLanguage"],
   },
@@ -114,7 +119,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "javaScriptFrameworkLibrary",
     type: "list",
-    message: "Here are the javascript project framework or libraries you can pick from",
+    message:
+      "Here are the javascript project framework or libraries you can pick from",
     choices: JAVASCRIPTFRAMEWORK,
     when: (answer1: { programmingLanguage: string }) => {
       return answer1.programmingLanguage === "javascript";
@@ -125,15 +131,15 @@ const QUESTIONS: Array<Object> = [
   {
     name: "typescriptFrameworkLibrary",
     type: "list",
-    message: "Here are the typescript project framework or libraries you can pick from",
+    message:
+      "Here are the typescript project framework or libraries you can pick from",
     choices: TYPESCRIPTFRAMEWORK,
     when: (answer2: { programmingLanguage: string }) => {
       return answer2.programmingLanguage === "typescript";
     },
   },
 
-
-// tutorial starters START
+  // tutorial starters START
 
   {
     name: "tutorialStarters",
@@ -149,7 +155,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "tutorialInput",
     type: "input",
-    message: "I'm so glad you listened to me. Now input the tutorial starter code",
+    message:
+      "I'm so glad you listened to me. Now input the tutorial starter code",
     validate: (value: string) => {
       const array = TUTORIALSTARTER;
 
@@ -194,7 +201,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "tsStarters",
     type: "list",
-    message: "Almost there! Choose the starter you want quicksi to generate for you?",
+    message:
+      "Almost there! Choose the starter you want quicksi to generate for you?",
     choices: REACTTS,
     when: (answer6: { typescriptFrameworkLibrary: string }) => {
       return answer6.typescriptFrameworkLibrary === "react-ts";
@@ -204,7 +212,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "tsStarters",
     type: "list",
-    message: "Almost ready! Choose the starter you want quicksi to generate for you",
+    message:
+      "Almost ready! Choose the starter you want quicksi to generate for you",
     choices: NODETS,
     when: (answer6: { typescriptFrameworkLibrary: string }) => {
       return answer6.typescriptFrameworkLibrary === "node-ts";
@@ -214,7 +223,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "tsStarters",
     type: "list",
-    message: "Pretty much done! Choose the starter you want quicksi to generate for you",
+    message:
+      "Pretty much done! Choose the starter you want quicksi to generate for you",
     choices: FULLSTACKTS,
     when: (answer6: { typescriptFrameworkLibrary: string }) => {
       return answer6.typescriptFrameworkLibrary === "fullstack-starters";
@@ -224,7 +234,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "tsStarters",
     type: "list",
-    message: "So close! Choose the starter you want quicksi to generate for you",
+    message:
+      "So close! Choose the starter you want quicksi to generate for you",
     choices: REACT_NATIVE_EXPO_TS,
     when: (answer6: { typescriptFrameworkLibrary: string }) => {
       return answer6.typescriptFrameworkLibrary === "react-native-expo-ts";
@@ -234,7 +245,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "tsStarters",
     type: "list",
-    message: "Be ready soon! Choose the starter you want quicksi to generate for you",
+    message:
+      "Be ready soon! Choose the starter you want quicksi to generate for you",
     choices: REACT_NATIVE_CLI_TS,
     when: (answer6: { typescriptFrameworkLibrary: string }) => {
       return answer6.typescriptFrameworkLibrary === "react-native-ts";
@@ -245,7 +257,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "jsStarters",
     type: "list",
-    message: "Nearly finished! Choose the starter you want quicksi to generate for you",
+    message:
+      "Nearly finished! Choose the starter you want quicksi to generate for you",
     choices: ANGULARJS,
     when: (answer4: { javaScriptFrameworkLibrary: string }) => {
       return answer4.javaScriptFrameworkLibrary === "angular-js";
@@ -254,7 +267,17 @@ const QUESTIONS: Array<Object> = [
   {
     name: "jsStarters",
     type: "list",
-    message: "Nearly finished! Choose the starter you want quicksi to generate for you",
+    message: "Almost there! Choose the starter you want generated for you",
+    choices: VUEJS,
+    when: (answer4: { javaScriptFrameworkLibrary: string }) => {
+      return answer4.javaScriptFrameworkLibrary === "vue-js";
+    },
+  },
+  {
+    name: "jsStarters",
+    type: "list",
+    message:
+      "Nearly finished! Choose the starter you want quicksi to generate for you",
     choices: REACTJS,
     when: (answer4: { javaScriptFrameworkLibrary: string }) => {
       return answer4.javaScriptFrameworkLibrary === "react-js";
@@ -275,7 +298,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "jsStarters",
     type: "list",
-    message: "So close! Choose the starter you want quicksi to generate for you",
+    message:
+      "So close! Choose the starter you want quicksi to generate for you",
     choices: FULLSTACKJS,
     when: (answer6: { javaScriptFrameworkLibrary: string }) => {
       return answer6.javaScriptFrameworkLibrary === "fullstack-starters";
@@ -285,7 +309,8 @@ const QUESTIONS: Array<Object> = [
   {
     name: "jsStarters",
     type: "list",
-    message: "Pretty much done! Choose the starter you want quicksi to generate for you",
+    message:
+      "Pretty much done! Choose the starter you want quicksi to generate for you",
     choices: REACT_NATIVE_EXPO_JS,
     when: (answer6: { javaScriptFrameworkLibrary: string }) => {
       return answer6.javaScriptFrameworkLibrary === "react-native-expo-js";
