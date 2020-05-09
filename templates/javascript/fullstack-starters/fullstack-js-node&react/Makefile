@@ -1,6 +1,6 @@
 .PHONY: help
 
-PROJECT = <%= projectName %>
+PROJECT = projectname
 VERSION ?= $(shell git show --quiet --format="%cd-%h" --date=short)
 SERVICE ?= backend
 IMAGE ?= ${PROJECT}/${SERVICE}
