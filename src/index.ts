@@ -24,6 +24,10 @@ const TUTORIALSTARTER = fs.readdirSync(
 
 // FILE PATH START
 
+// File path connection for VUE
+const VUEJS = fs.readdirSync(
+  path.join(__dirname, "templates/javascript/vue-js")
+);
 // File path connection for REACT
 const REACTTS = fs.readdirSync(
   path.join(__dirname, "templates/typescript/react-ts")
@@ -269,6 +273,16 @@ const QUESTIONS: Array<Object> = [
     when: (answer4: { javaScriptFrameworkLibrary: string }) => {
       // console.log(answer4, 'answer4');
       return answer4.javaScriptFrameworkLibrary === "node-js";
+    },
+  },
+
+  {
+    name: "jsStarters",
+    type: "list",
+    message: "Nearly finished! Choose the starter you want quicksi to generate for you",
+    choices: VUEJS,
+    when: (answer4: { javaScriptFrameworkLibrary: string }) => {
+      return answer4.javaScriptFrameworkLibrary === "vue-js";
     },
   },
 
