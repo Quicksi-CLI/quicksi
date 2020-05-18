@@ -20,27 +20,13 @@ class Users extends React.Component {
         <Container padding={['bottom']}>
           <div className="showcaseSection">
             <div className="prose">
-              <h1>
-                <translate>Who is using Quicksi?</translate>
-              </h1>
-              <p>
-                Quicksi has been used for some popular apps{' '}
-                <a href="#">
-                  open source projects
-                </a>
-                .
-              </p>
+              <h4>
+                <translate>Thanks to all Quicksi Contributors</translate>
+              </h4>
             </div>
             <Showcase users={fbUsersToShowcase} />
-            <div className="prose">
-              <p>
-                <translate>
-                  Quicksi is also used by open source projects of all sizes.
-                </translate>
-              </p>
-            </div>
             <Showcase users={restToShowcase} />
-            <div className="prose">
+            {/* <div className="prose">
               <p>
                 <translate>Is your project using Docusaurus?</translate>
               </p>
@@ -51,7 +37,7 @@ class Users extends React.Component {
                 </a>{' '}
                 to add your logo.
               </p>
-            </div>
+            </div> */}
           </div>
         </Container>
       </div>
