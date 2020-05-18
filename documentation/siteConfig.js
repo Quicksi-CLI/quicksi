@@ -13,7 +13,7 @@ const siteConfig = {
   users,
   headerLinks: [
     {doc: 'installation', label: 'Docs'},
-    // {page: 'users', label: 'Users'},
+    {page: 'users', label: 'Contributors'},
     {blog: true, label: 'Blog'},
     {
       href: 'https://github.com/AnayoOleru/quicksi',

@@ -1,11 +1,11 @@
 ---
-id: version-1.0.3-Vue-JS
+id: "version-1.0.3-Vue-JS"
 title: Vue-JS
-original_id: Vue-JS
+original_id: "Vue-JS"
 ---
 Below are the Quicksi VueJS starters, their folder structures, and dependencies.
 
-<img alt="Javascript" src="/img/vuejs.png" width= "100%" class="javascriptDocImage"/>
+<img alt="Javascript" src="/img/vuejs.png" width= "30%" class="vueDocImage"/>
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 
