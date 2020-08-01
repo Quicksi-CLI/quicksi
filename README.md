@@ -4,7 +4,13 @@
 
 [View NPM package](https://www.npmjs.com/package/quicksi)
 
+### Previous Hits on a Private account
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi.svg)](http://hits.dwyl.com/AnayoOleru/quicksi)
+
+### Current Hits
+[![HitCount](http://hits.dwyl.com/Quicksi-CLI/quicksi.svg)](http://hits.dwyl.com/Quicksi-CLI/quicksi)
+
+
 [![npm version](https://img.shields.io/npm/v/quicksi.svg?style=flat-square)](https://www.npmjs.org/package/quicksi)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/AnayoOleru/quicksi/issues)
 [![npm downloads](https://img.shields.io/npm/dm/quicksi.svg?style=flat-square)](http://npm-stat.com/charts.html?package=quicksi)
