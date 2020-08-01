@@ -1,6 +1,6 @@
 # QUICKSI
 
-##### Transferred from a personal account to an organization github account.
+##### Transferred from a personal GitHub account to an organization GitHub account.
 
 [View documentation here](https://quicksi-bot.now.sh/)
 
