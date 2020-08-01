@@ -1,13 +1,15 @@
 # QUICKSI
 
+##### Transferred from a personal account to an organization github account.
+
 [View documentation here](https://quicksi-bot.now.sh/)
 
 [View NPM package](https://www.npmjs.com/package/quicksi)
 
-### Previous Hits on a Private account
+##### Previous Hits on a personal account
 [![HitCount](http://hits.dwyl.com/AnayoOleru/quicksi.svg)](http://hits.dwyl.com/AnayoOleru/quicksi)
 
-### Current Hits
+##### Current Hits
 [![HitCount](http://hits.dwyl.com/Quicksi-CLI/quicksi.svg)](http://hits.dwyl.com/Quicksi-CLI/quicksi)
 
 
